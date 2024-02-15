@@ -1,0 +1,203 @@
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      defenders: [
+        {
+          name: "Bartezaghi Davide",
+          age: 18,
+          minutesPlayed: 70,
+          goals: 0,
+          yellowCards: 0,
+          redCards: 0,
+          assists: 0
+        },
+        {
+          name: "Gabbia Matteo",
+          age: 24,
+          minutesPlayed: 367,
+          goals: 1,
+          yellowCards: 0,
+          redCards: 1,
+          assists: 0
+        },
+        {
+          name: "Hernandez Theo",
+          age: 26,
+          minutesPlayed: 1787,
+          goals: 3,
+          yellowCards: 2,
+          redCards: 7,
+          assists: 0
+        },
+        {
+          name: "Kjaer Simon",
+          age: 34,
+          minutesPlayed: 932,
+          goals: 0,
+          yellowCards: 1,
+          redCards: 1,
+          assists: 0
+        },
+        {
+          name: "Calabria Davide",
+          age: 27,
+          minutesPlayed: 1551,
+          goals: 0,
+          yellowCards: 3,
+          redCards: 5,
+          assists: 1
+        },
+        {
+          name: "Kalulu Pierre",
+          age: 23,
+          minutesPlayed: 110,
+          goals: 0,
+          yellowCards: 0,
+          redCards: 0,
+          assists: 0
+        },
+        {
+          name: "Tomori Fikayo",
+          age: 26,
+          minutesPlayed: 1384,
+          goals: 3,
+          yellowCards: 0,
+          redCards: 4,
+          assists: 1
+        },
+        {
+          name: "Thiaw Malik",
+          age: 22,
+          minutesPlayed: 924,
+          goals: 0,
+          yellowCards: 0,
+          redCards: 3,
+          assists: 1
+        },
+        {
+          name: "Florenzi Alessandro",
+          age: 32,
+          minutesPlayed: 945,
+          goals: 0,
+          yellowCards: 2,
+          redCards: 4,
+          assists: 0
+        },
+        {
+          name: "Jimenez Alejandro",
+          age: 18,
+          minutesPlayed: 58,
+          goals: 0,
+          yellowCards: 0,
+          redCards: 1,
+          assists: 0
+        },
+        {
+          name: "Simic Jan-Carlo",
+          age: 18,
+          minutesPlayed: 121,
+          goals: 1,
+          yellowCards: 0,
+          redCards: 0,
+          assists: 0
+        }
+      ],
+      goalkeepers: [
+        {
+          name: "Menyan Mike",
+          age: 28,
+          minutesPlayed: 1800,
+          goals: 0,
+          yellowCards: 1,
+          redCards: 0,
+          assists: 1
+        },
+        {
+          name: "Mirante Antonio",
+          age: 40,
+          minutesPlayed: 90,
+          goals: 0,
+          yellowCards: 0,
+          redCards: 0,
+          assists: 0
+        },
+        {
+          name: "Sportiello Marco",
+          age: 31,
+          minutesPlayed: 180,
+          goals: 0,
+          yellowCards: 0,
+          redCards: 0,
+          assists: 0
+        }
+      ],
+      forwards: [
+        {
+          name: "Ziru Olivier",
+          age: 37,
+          minutesPlayed: 1504,
+          goals: 11,
+          yellowCards: 8,
+          redCards: 1,
+          assists: 1
+        },
+        {
+          name: "Jovic Luka",
+          age: 26,
+          minutesPlayed: 520,
+          goals: 5,
+          yellowCards: 1,
+          redCards: 2,
+          assists: 0
+        },
+        {
+          name: "Kamarda Francesco",
+          age: 15,
+          minutesPlayed: 14,
+          goals: 0,
+          yellowCards: 0,
+          redCards: 0,
+          assists: 0
+        },
+        {
+          name: "Leau Rafael",
+          age: 24,
+          minutesPlayed: 1488,
+          goals: 3,
+          yellowCards: 6,
+          redCards: 3,
+          assists: 0
+        },
+        {
+          name: "Okafor Noah",
+          age: 23,
+          minutesPlayed: 457,
+          goals: 4,
+          yellowCards: 0,
+          redCards: 1,
+          assists: 0
+        },
+        {
+          name: "Pulisic Christian",
+          age: 25,
+          minutesPlayed: 1536,
+          goals: 6,
+          yellowCards: 5,
+          redCards: 1,
+          assists: 0
+        },
+        {
+          name: "Chukwueze Samuel",
+          age: 24,
+          minutesPlayed: 545,
+          goals: 0,
+          yellowCards: 1,
+          redCards: 0,
+          assists: 0
+        }
+      ]
+    };
+  }
+
+   
